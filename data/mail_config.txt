@@ -1,0 +1,26 @@
+CONFIGURING MAIL SERVICE IN XAMPP TO SEND MAIL WITH LOCALHOST 
+
+1. Open php.ini file found inside php folder 
+
+2. Search for "sendmail_path" and uncomment the line 
+   eg: 
+       - if this sign (;) is found before the statement then remove it  
+
+3. Next locate the same search value found and comment the second statement after the first search value
+   eg: comment this line - ;sendmail_path="E:\program\XAMPP\sendmail.exe\"
+
+4. Next find a folder named sendmail folder 
+
+5. Open sendmail.ini and change few lines 
+
+6. Search for "smtp_server" and change it's value to smtp.gmail.com
+
+7. Search for "smtp_port" and change it's value to 587  
+
+8. Search for "auth_username" and change it's value to your personal email
+
+9. Next change the value of "auth_password" to your personal password 
+
+10. Restart your Apache module on Xampp Control Panel 
+
+11. YOUR GOOD TO GO ! The GS Hair styling will be able to send mails 

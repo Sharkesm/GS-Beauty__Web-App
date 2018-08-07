@@ -1,0 +1,37 @@
+*************************************************************************
+*************************************************************************
+
+FOLLOW INSTRUCTIONS ONLY IF THE DATABASE EXIST ALREADY ON YOUR MYSQL 
+
+  OR ELSE
+ 
+DO NOT COMMENT OUT THE DROP DATABASE COMMAND LINE 
+
+*************************************************************************
+*************************************************************************
+
+
+DEPLOYING GLOBAL STYLE DATABASE ON FIRST USE - MANUALLY 
+
+
+-- Open global_style_DB.sql file on edit mode 
+-- Comment out the Drop database command line eg: /** statement **/
+
+  ** Cons of performing such action **
+     - Will tend to delete the database from the client machine 
+     - End erase all DEFAULT information (Own Risk)
+
+  ** Pros of performing such action ** 
+     - Only if you don't need previous data and everything will be deleted 
+
+-- Run your phpmyAdmin local page on your browser
+-- Select Import tab
+-- Select a file to import from your machine
+-- proceed with pressing OK button 
+
+
+
+
+
+
+*** CONGRATULATION SUCCESSFULLY DEPLOYED YOUR NEW DATABASE ***
